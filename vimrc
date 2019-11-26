@@ -39,6 +39,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'davidhalter/jedi-vim'
 
 " Vundle end
 call vundle#end()
