@@ -15,6 +15,9 @@ nnoremap <C-H> <C-W><C-H>
 " Folding key remaping
 nnoremap <space> za
 
+" NerdTree mapping
+map <C-n> :NERDTreeToggle<CR>
+
 " Python code style
 au BufNewFile,BufRead *.py     
     \ set tabstop=4 |
@@ -35,6 +38,7 @@ set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
 
 " Vundle end
 call vundle#end()
