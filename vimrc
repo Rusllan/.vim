@@ -2,12 +2,18 @@ language en_US.utf8
 set number
 set cursorline
 
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
 " Split navigation key remaping
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Folding key remaping
+nnoremap <space> za
 
 " Vundle requiroments 
 set nocompatible
