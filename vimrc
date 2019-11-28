@@ -2,6 +2,8 @@ language en_US.utf8
 set number
 set cursorline
 
+colorscheme slate
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
