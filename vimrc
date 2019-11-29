@@ -1,4 +1,4 @@
-language en_US.utf8
+language en
 set number
 set cursorline
 syntax on
