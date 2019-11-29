@@ -20,6 +20,7 @@ nnoremap <space> za
 
 " NerdTree mapping
 map <C-n> :NERDTreeToggle<CR>
+map <F4> :CondaChangeEnv<CR>
 
 " Python code style
 au BufNewFile,BufRead *.py     
@@ -43,6 +44,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'cjrh/vim-conda'
 
 " Vundle end
 call vundle#end()
