@@ -19,6 +19,7 @@ nnoremap <space> za
 
 " NerdTree mapping
 map <C-n> :NERDTreeToggle<CR>
+" Vim-conda mapping
 map <F4> :CondaChangeEnv<CR>
 
 " Python code style
@@ -30,7 +31,6 @@ au BufNewFile,BufRead *.py
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix |
-
 
 " Vundle requiroments 
 set nocompatible
