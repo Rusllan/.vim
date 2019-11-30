@@ -47,6 +47,8 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'cjrh/vim-conda'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Vundle end
 call vundle#end()
