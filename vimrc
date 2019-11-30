@@ -1,6 +1,5 @@
 language en
 set number
-set cursorline
 syntax on
 
 colorscheme slate
